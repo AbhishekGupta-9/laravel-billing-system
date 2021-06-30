@@ -25,6 +25,6 @@ Route::post('save-customer-record', 'Controller@saveCustomerRecord');
 Route::get('get-all-customers', 'Controller@getAllCustomers');
 //Create Bill
 Route::post('create-bill', 'Controller@createBill');
-//Bill Headers
+//Bill Headers Added via git master - copy
 Route::get('get-all-bills', 'Controller@getAllBill');
 Route::get('get-detailed-bill', 'Controller@getDetailedBill');
